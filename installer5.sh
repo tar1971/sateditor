@@ -6,7 +6,8 @@
 ###########################################
 
 echo
-
+opkg remove etc/enigma2/MyM
+wait
 #!/bin/sh
  # 
  # # 
