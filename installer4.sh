@@ -3,13 +3,13 @@
  # # 
 cd /tmp
 set -e 
-wget "https://raw.githubusercontent.com/tar1971/sateditor/main/EPG-PRO-grabber.tar.gz"
+wget "https://raw.githubusercontent.com/tar1971/sateditor/main/ts-sateditor_3.3.tar.gz"
 wait
-tar -xzf EPG-PRO-grabber.tar.gz  -C /
+tar -xzf ts-sateditor_3.3.tar.gz  -C /
 wait
 cd ..
 set +e
-rm -f /tmp/EPG-PRO-grabber.tar.gz
+rm -f /tmp/ts-sateditor_3.3.tar.gz
 echo "   UPLOADED BY  >>>>   TAR_TAR "   
 sleep 4;                                                                                                                  
 echo ". >>>>         RESTARING     <<<<"
