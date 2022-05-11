@@ -1,6 +1,6 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/tar1971/sateditor/main/installer5.sh -O - | /bin/sh
+## Command=wget --no-check-certificate https://raw.githubusercontent.com/tar1971/sateditor/main/installer5.sh -O - | /bin/sh
 echo
 #!/bin/sh
  # 
