@@ -7,7 +7,7 @@ echo
  # # 
 cd /tmp
 set -e 
-wget "https://github.com/tar1971/sateditor/blob/main/ts-sateditor_3.3.tar.gz?raw=true"
+wget cd /tmp "https://github.com/tar1971/sateditor/blob/main/ts-sateditor_3.3.tar.gz?raw=true"
 wait
 tar -xzf ts-sateditor_3.3.tar.gz  -C /
 wait
