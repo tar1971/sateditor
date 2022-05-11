@@ -3,7 +3,7 @@
  # # 
 cd /tmp
 set -e 
-wget "https://raw.githubusercontent.com/tar1971/EPG-PRO/main/EPG-PRO-grabber.tar.gz"
+wget "https://raw.githubusercontent.com/tar1971/sateditor/main/EPG-PRO-grabber.tar.gz"
 wait
 tar -xzf EPG-PRO-grabber.tar.gz  -C /
 wait
@@ -17,6 +17,7 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
+
 
 
 
