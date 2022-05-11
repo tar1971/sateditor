@@ -7,7 +7,7 @@
 
 echo
 opkg remove etc/enigma2/MyM
-echo
+wget
 #!/bin/sh
  # 
  # # 
