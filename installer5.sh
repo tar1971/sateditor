@@ -2,9 +2,7 @@
 ######################################################################################
 ## Command=wget --no-check-certificate https://raw.githubusercontent.com/tar1971/sateditor/main/installer5.sh -O - | /bin/sh
 echo
-echo
-echo
-echo
+#!/bin/sh
 echo
 #!/bin/sh
  # 
@@ -13,7 +11,7 @@ cd /tmp
 echo
 wget  "https://github.com/tar1971/sateditor/blob/main/ts-sateditor_3.3.tar.gz?raw=true"
 wait
-tar ts-sateditor_3.3.tar.gz  -C /
+tar -xzf ts-sateditor_3.3.tar.gz  -C /
 wait
 cd ..
 set +e
